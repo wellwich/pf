@@ -3,6 +3,9 @@ import './globals.css'
 export const metadata = {
   title: 'wellwich\'s portfolio',
   description: 'wellwich\'s portfolio',
+  robots: {
+    index: false, // noindexの設定
+  },
 }
 
 export default function RootLayout({
