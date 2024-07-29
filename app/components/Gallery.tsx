@@ -42,7 +42,7 @@ const Gallery = () => {
                     )}
                 </div>
                 <div>
-                    <div className="flex flex-wrap gap-2 mb-4 text-sm">
+                    <div className="flex flex-wrap gap-2 mb-4 text-sm p-8">
                         <button
                             className={`px-4 py-2 rounded-full ${selectedTag === null ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
                             onClick={() => handleTagClick(null)}
