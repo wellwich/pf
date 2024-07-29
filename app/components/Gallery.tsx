@@ -33,7 +33,6 @@ const Gallery = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 justify-center">
                 <div className="col-span-1 md:col-span-2 p-8">
-                    {/*ここに画像を表示させる*/}
                     {image && (
                         <div className="w-full h-96 flex items-center justify-center">
                             <img src={`https://images.wellwi.ch/${image}`}
