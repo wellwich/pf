@@ -31,7 +31,7 @@ const Gallery = () => {
             <h2 className="text-2xl font-bold mb-4">
                 Gallery
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 justify-center">
                 <div className="col-span-1 md:col-span-2 p-8">
                     {/*ここに画像を表示させる*/}
                     {image && (
